@@ -15,6 +15,10 @@ dependencies {
     // 3.0.8 works
     //implementation group: 'org.codehaus.groovy', name: 'groovy', version: '3.0.8'
 
-    // 3.0.9
-    implementation group: 'org.codehaus.groovy', name: 'groovy', version: '3.0.9'
+    // 3.0.9 doesn't work
+    //implementation group: 'org.codehaus.groovy', name: 'groovy', version: '3.0.9'
+
+    // 4.0.0 doesn't work
+    implementation group: 'org.apache.groovy', name: 'groovy', version: '4.0.0'
 }
+
